@@ -1,9 +1,9 @@
-# matchcase
+# functional-match-case
 
 ```bash
-npm install matchcase
+npm install functional-match-case
 # or
-yarn add matchcase
+yarn add functional-match-case
 ```
 
 ## Example:
@@ -26,7 +26,7 @@ switch(someValue) {
 Into:
 
 ```javascript
-import matchCase from 'matchcase';
+import matchCase from 'functional-match-case';
 
 const match = matchCase({
   [A]: resultA,
@@ -86,4 +86,4 @@ const hash = {
 
 Then both functions would be executed. 
 
-With `matchCase` you just pass a reference and it will be executed when needed.
+With `functional-match-case` you just pass a reference and it will be executed when needed.
