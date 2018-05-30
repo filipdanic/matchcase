@@ -1,0 +1,30 @@
+{
+  "name": "matchcase",
+  "version": "1.0.0",
+  "description": "A functional approach to using switch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipdanic/execute-if-function.git"
+  },
+  "keywords": [
+    "helper",
+    "utility",
+    "one-liners"
+  ],
+  "author": "danicfilip.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipdanic/execute-if-function/issues"
+  },
+  "homepage": "https://github.com/filipdanic/execute-if-function",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "execute-if-function": "^1.0.0"
+  }
+}
