@@ -62,8 +62,7 @@ export const anotherMatchCase = {
 
 ```javascript
 // fileC.js
-
-yetAnotherMatchCase = {
+export const yetAnotherMatchCase = {
    ...someMatchCase,
    ...anotherMatchCase,
    [F]: resultF,
@@ -77,7 +76,7 @@ You could use a simple hash map instead of a `switch`. (Assuming no need for a `
 
 But, if you added functions like this:
 ```javascript
-{
+const hash = {
   keyA: functionA(),
   keyB: 401,
   keyC: functionC(),
