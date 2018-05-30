@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipdanic/execute-if-function.git"
+    "url": "git+https://github.com/filipdanic/matchcase.git"
   },
   "keywords": [
     "helper",
@@ -18,9 +18,9 @@
   "author": "danicfilip.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filipdanic/execute-if-function/issues"
+    "url": "https://github.com/filipdanic/matchcase/issues"
   },
-  "homepage": "https://github.com/filipdanic/execute-if-function",
+  "homepage": "https://github.com/filipdanic/matchcase",
   "devDependencies": {
     "tape": "^4.8.0"
   },
