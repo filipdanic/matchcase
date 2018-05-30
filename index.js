@@ -1,9 +1,9 @@
 /**
- * matchcase
+ * functional-match-case
  * --------------
- * `npm install matchcase`
+ * `npm install functional-match-case`
  *  or
- * `yarn add matchcase`
+ * `yarn add functional-match-case`
  *
  * Example:
  *
@@ -23,7 +23,7 @@
  *
  * Into:
  *
- * import matchCase from 'matchcase';
+ * import matchCase from 'functional-match-case';
  *
  * const match = matchCase({
  *   [A]: resultA,
