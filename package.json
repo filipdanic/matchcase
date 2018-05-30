@@ -1,6 +1,6 @@
 {
   "name": "functional-match-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A functional approach to using switch.",
   "main": "index.js",
   "scripts": {
