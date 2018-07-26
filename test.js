@@ -17,3 +17,27 @@ test('it evaluates function when needed', (t) => {
   t.equal(match('A'), 10);
   t.end();
 });
+
+test('README example works', (t) => {
+  const A = 'A';
+  const B = 'B';
+  const C = 'C';
+  const D = 'D';
+  const resultA = 1;
+  const resultB = 2;
+  const functionC = () => 3;
+  const defaultValue = 4;
+  const match = matchCase({
+    [A]: resultA,
+    [B]: resultA,
+    [C]: resultB,
+    [D]: functionC,
+  })(defaultValue);
+  t.plan(5);
+  t.equal(match(A), resultA);
+  t.equal(match(B), resultA);
+  t.equal(match(C), resultB);
+  t.equal(match(D), functionC());
+  t.equal(match(), defaultValue);
+  t.end();
+});
