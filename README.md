@@ -7,7 +7,7 @@ Use lazy, functional programming friendly hash maps instead of `switch` statemen
 **Install**
 
 ```bash
-npm install functional-match-case
+npm install functional-match-case --save
 # or
 yarn add functional-match-case
 ```
